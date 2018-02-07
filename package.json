@@ -1,0 +1,22 @@
+{
+  "name": "node-rescuetime-client",
+  "version": "0.0.1",
+  "description": "Node client for RescueTime API",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "nyc ava & standard"
+  },
+  "author": "Antonio Valverde",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "debug": "^3.1.0",
+    "nock": "^9.1.6",
+    "nyc": "^11.4.1",
+    "standard": "^10.0.3"
+  },
+  "dependencies": {
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
+}
